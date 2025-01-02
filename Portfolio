@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color:white;
+            color:#4CAF50;
+            padding: 20px 0;
+            text-align: center;
+            height: 150px;
+            border-radius:  0 0 20% 20%;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 60px;
+            text-decoration: underline;
+        }
+        #linkedin{
+            width: 35px;
+            height: 35px;
+            opacity: 0.7;
+            position: absolute;
+            margin-top: -5px;
+            transition:0.5s;
+            margin-left: -90px;
+        }
+        #linkedin:hover{
+            width: 37px;
+            height: 37px;
+            opacity: 1;
+        }
+        #github{
+            width: 25px;
+            height: 25px;
+            position: absolute;
+            margin-left:200px ;
+            transition: 0.5s;
+            margin-left: -50px;
+        }
+        #github:hover{
+            width: 27px;
+            height: 27px;
+            opacity: 1;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            padding: 20px;
+            background: url(nature.jpg) ;
+            height: 80vh;
+            background-size: cover;
+        }
+
+        .card {
+            background-color: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            width: 300px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .card h2 {
+            margin-top: 0;
+            color: #4CAF50;
+        }
+
+        .card p {
+            color: #666;
+        }
+
+        .card input[type="file"] {
+            margin-top: 15px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dharmesh H</h1>
+        <a href="https://www.linkedin.com/in/dharmesh-h-1103a52b6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+            <img id="linkedin" src="https://github.com/Dharmesh-29/Marvel-Level-0/blob/main/linkedin.jpeg?raw=true" alt="linkedin logo">
+        </a>
+        <a href="https://github.com/Dharmesh-29">
+            <img id="github" src="https://github.com/Dharmesh-29/Marvel-Level-0/blob/main/Githubpic.png?raw=true" alt="github logo">
+        </a>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <h2>Skills</h2>
+            <p><ul>
+                <li>Communication</li>
+                <li>Time Management</li>
+                <li>Organizing</li>
+            </ul></p>
+        </div>
+
+        <div class="card">
+            <h2>About Me</h2>
+            <p>I'm Dharmesh H, a second-year BTech student at the University of Visvesvaraya College of Engineering pursuing Electronics and Communication. I am deeply passionate about technology and innovation, always eager to explore new advancements in the field of electronics. My curiosity drives me to delve into areas like circuit design and embedded systems. Apart from my academic interests, I have a keen interest in cricket, which keeps me active and helps me stay disciplined. Whether it's playing or watching, cricket is one of my favorite ways to unwind.</p>
+        </div>
+
+        <div class="card">
+            <h2>Projects</h2>
+            <ul>
+                <li>Object Detection and Tracking System</li>
+                <li>ESP32 Web Server for Controlling GPIO Pins</li>
+                <li>Speed Control using PWM</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
+
